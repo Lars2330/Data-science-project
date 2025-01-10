@@ -64,6 +64,6 @@ most_popular_genre_by_year = year_genre_popularity.sort_values(['year', 'rating_
 most_popular_genre_by_year.reset_index(drop=True, inplace=True)
 most_popular_genre_by_year.index += 1
 
-# Print the most popular genre by year.
+# Print the most popular genre by year
 print("Most Popular Genre by Year:")
 print(most_popular_genre_by_year)
